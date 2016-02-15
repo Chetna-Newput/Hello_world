@@ -1,0 +1,51 @@
+<DOCTYPE html >
+  <html>
+    <head>
+      <title> Bookstore </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="stylePinterest.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+     </head>
+     <body onLoad="change('java')" >
+       <div class="container-fluid">
+         <div class="jumbotron row ">
+           <h1>Book Store: Technical Section</h1>
+         </div>
+         <div class="bgColor col-xs-12 col-sm-3 col-md-2" id="addMargin" >
+           <h3 class="hAlign" >Categories:</h3>
+           <ul class="list-group">
+             <li><a class="list-group-item actve" onclick="change('java')"> Java </a></li>
+             <li><a class="list-group-item" onclick="change('ruby')"> Ruby </a></li>
+             <li><a class="list-group-item" onclick="change('mysql')"> My SQL </a></li>
+             <li><a class="list-group-item" onclick="change('html')"> HTML </a></li>
+             <li><a class="list-group-item" onclick="change('css')"> CSS </a></li>
+             <li><a class="list-group-item" onclick="change('ajax')"> AJAX </a></li>
+             <li><a class="list-group-item" onclick="change('oracle')"> Oracle </a></li>
+             <li><a class="list-group-item" onclick="change('android')"> Android </a></li>
+             <li><a class="list-group-item" onclick="change('python')"> Python </a></li>
+             <li><a class="list-group-item" onclick="change('javascript')"> Java Script </a></li>
+             <li><a class="list-group-item" onclick="change('php')"> PHP </a></li>
+            </ul>    
+           </div>
+           <div class="col-sm-9 col-md-10">
+             <h3 class="bgColor contentCenter" >List of Books:</h3>
+               <div class="col-x-6 col-m-4 col-3" id="cn0">
+               </div>
+               <div class=" col-x-6 col-m-4 col-3" id="cn1">
+               </div>
+               <div class=" col-x-6 col-m-4 col-3" id="cn2">
+               </div> 
+               <div class=" col-x-6 col-m-4 col-3" id="cn3">
+               </div>
+            </div>
+         </div> 
+           
+            <script src="http://code.jquery.com/jquery.js"></script>
+ 			<script src="js/bootstrap.min.js"></script>
+             <script src="jquerybooklist.js"></script> 
+ 			
+      </body>
+    </html>    
